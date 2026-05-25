@@ -1,33 +1,174 @@
-Project Title: Online Food Delivery System
+# Online Food Ordering System
 
-Description:
-The Online Food Delivery System is a Spring Boot project designed to facilitate online food ordering and delivery, inspired by platforms like Swiggy. Leveraging the power of Spring Framework, this project provides a robust backend infrastructure for building a modern and scalable food delivery application. It includes features such as user registration and authentication, restaurant management, order processing, delivery tracking, and more. With its modular architecture and RESTful APIs, developers can easily extend and customize the system to meet specific business requirements.
+A full-stack food ordering and restaurant management application developed using Spring Boot, Java, Hibernate, MySQL, and REST APIs. The system enables customers to browse restaurants, place food orders, track deliveries, and manage their accounts through a secure and user-friendly platform.
 
-Key Features:
+---
 
-User registration and authentication
-Restaurant management (listing, menu management)
-Ordering and checkout process
-Real-time order tracking and status updates
-Delivery executive management and tracking
-Payment gateway integration for secure transactions
-Comprehensive admin dashboard for monitoring and analytics
-Usage:
+## Features
 
-Clone the repository: git clone [repository URL]
-Navigate to the project directory: cd [project directory]
-Build the project: mvn clean install or ./gradlew build
-Run the application: java -jar target/[project-name].jar
-Inserting JSON Data:
-To insert JSON data into the application, follow these steps:
+### Customer Module
 
-Identify the endpoint or service responsible for handling JSON data.
-Prepare your JSON data with the required fields and values.
-Use tools like Postman or curl to send a POST request to the appropriate endpoint with the JSON data.
-Verify the successful insertion of data by checking the database or retrieving it through appropriate API endpoints.
-Contributing:
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+* User Registration and Login
+* Browse Restaurants and Menus
+* Add Food Items to Cart
+* Place Orders Securely
+* Track Order Status
+* View Order History
 
-License:
-This project is licensed under the [License Name] License - see the LICENSE.md file for details.
+### Restaurant Module
 
+* Manage Food Menu
+* Update Item Availability
+* Process Customer Orders
+* View Order Reports
+
+### Admin Module
+
+* Manage Users
+* Manage Restaurants
+* Monitor Orders
+* View System Statistics
+* Maintain Platform Operations
+
+---
+
+## Technology Stack
+
+* Java
+* Spring Boot
+* Spring MVC
+* Spring Security
+* Hibernate / JPA
+* MySQL
+* Maven
+* REST APIs
+* Docker
+
+---
+
+## Project Architecture
+
+The application follows a layered architecture:
+
+* Controller Layer
+* Service Layer
+* Repository Layer
+* Database Layer
+
+This structure improves maintainability, scalability, and code organization.
+
+---
+
+## Database Design
+
+Main entities include:
+
+* User
+* Restaurant
+* Food Item
+* Cart
+* Order
+* Payment
+* Delivery
+
+Relationships are managed using JPA and Hibernate.
+
+---
+
+## Key Functionalities
+
+### Authentication & Authorization
+
+* Secure Login
+* Password Encryption
+* Role-Based Access Control
+
+### Food Ordering
+
+* Menu Browsing
+* Cart Management
+* Order Placement
+* Order Tracking
+
+### Restaurant Management
+
+* Menu Updates
+* Order Processing
+* Customer Order Handling
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/royyalapriyanka/Online-Food-Order-System.git
+```
+
+### Navigate to Project
+
+```bash
+cd Online-Food-Order-System
+```
+
+### Build Project
+
+```bash
+mvn clean install
+```
+
+### Run Application
+
+```bash
+mvn spring-boot:run
+```
+
+Application URL:
+
+```text
+http://localhost:8080
+```
+
+---
+
+## Future Enhancements
+
+* Online Payment Gateway Integration
+* Email Notifications
+* SMS Alerts
+* Recommendation System
+* Cloud Deployment on AWS
+* Microservices Migration
+
+---
+
+## Skills Demonstrated
+
+* Backend Development
+* REST API Development
+* Database Management
+* Object-Oriented Programming
+* Authentication & Authorization
+* Software Architecture
+* Version Control using Git & GitHub
+
+---
+
+## Author
+
+Royyala Priyanka
+
+B.Tech Electronics and Communication Engineering
+
+Aspiring Software Developer
+
+GitHub: https://github.com/royyalapriyanka
+
+LinkedIn: https://www.linkedin.com/in/royyala-priyanka108/
+
+---
+
+## License
+
+This project is created for educational and portfolio purposes.
